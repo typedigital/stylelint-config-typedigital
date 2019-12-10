@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-config-typedigital",
+  "version": "0.1.0",
+  "description": "",
+  "main": "base.js",
+  "keywords": [
+    "stylelint",
+    "rules",
+    "style",
+    "guide",
+    "typedigital"
+  ],
+  "scripts": {
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "author": "typedigital",
+  "license": "Unlicense",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-typedigital": "^2.4.0",
+    "standard-version": "^7.0.1",
+    "stylelint": "^12.0.0"
+  }
+}
