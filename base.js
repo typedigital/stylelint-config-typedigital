@@ -184,4 +184,4 @@ module.exports = {
     'value-list-max-empty-lines': 0, // https://stylelint.io/user-guide/rules/value-list-max-empty-lines
     'value-no-vendor-prefix': true, // https://stylelint.io/user-guide/rules/value-no-vendor-prefix
   },
-}
+};
