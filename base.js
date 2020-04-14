@@ -179,7 +179,7 @@ module.exports = {
     'value-keyword-case': 'lower', // https://stylelint.io/user-guide/rules/value-keyword-case
     'value-list-comma-newline-after': 'always-multi-line', // https://stylelint.io/user-guide/rules/value-list-comma-newline-after
     'value-list-comma-newline-before': null, // https://stylelint.io/user-guide/rules/value-list-comma-newline-before
-    'value-list-comma-space-after': 'always', // https://stylelint.io/user-guide/rules/value-list-comma-space-after
+    'value-list-comma-space-after': 'always-single-line', // https://stylelint.io/user-guide/rules/value-list-comma-space-after
     'value-list-comma-space-before': 'never', // https://stylelint.io/user-guide/rules/value-list-comma-space-before
     'value-list-max-empty-lines': 0, // https://stylelint.io/user-guide/rules/value-list-max-empty-lines
     'value-no-vendor-prefix': true, // https://stylelint.io/user-guide/rules/value-no-vendor-prefix
