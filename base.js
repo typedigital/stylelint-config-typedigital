@@ -43,7 +43,7 @@ module.exports = {
     'declaration-block-no-shorthand-property-overrides': true, // https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides
     'declaration-block-semicolon-newline-after': 'always-multi-line', // https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-after
     'declaration-block-semicolon-newline-before': 'never-multi-line', // https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-before
-    'declaration-block-semicolon-space-after': ['never', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-block-semicolon-space-after
+    'declaration-block-semicolon-space-after': ['always-single-line', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-block-semicolon-space-after
     'declaration-block-semicolon-space-before': 'never', // https://stylelint.io/user-guide/rules/declaration-block-semicolon-space-before
     'declaration-block-single-line-max-declarations': 1, // https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations
     'declaration-block-trailing-semicolon': ['always', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-block-trailing-semicolon
