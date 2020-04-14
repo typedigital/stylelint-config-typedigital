@@ -137,7 +137,7 @@ module.exports = {
     'selector-id-pattern': null, // https://stylelint.io/user-guide/rules/selector-id-pattern
     'selector-list-comma-newline-after': 'always-multi-line', // https://stylelint.io/user-guide/rules/selector-list-comma-newline-after
     'selector-list-comma-newline-before': null, // https://stylelint.io/user-guide/rules/selector-list-comma-newline-before
-    'selector-list-comma-space-after': 'always', // https://stylelint.io/user-guide/rules/selector-list-comma-space-after
+    'selector-list-comma-space-after': 'always-single-line', // https://stylelint.io/user-guide/rules/selector-list-comma-space-after
     'selector-list-comma-space-before': 'never', // https://stylelint.io/user-guide/rules/selector-list-comma-space-before
     'selector-max-attribute': [2, { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/selector-max-attribute
     'selector-max-class': 2, // https://stylelint.io/user-guide/rules/selector-max-class
