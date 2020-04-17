@@ -22,6 +22,6 @@
     "@typedigital/eslint-config": "^3.0.0",
     "eslint": "^6.8.0",
     "standard-version": "^7.1.0",
-    "stylelint": "^13.2.1"
+    "stylelint": "^13.3.2"
   }
 }
