@@ -79,7 +79,7 @@ module.exports = {
     'function-url-scheme-whitelist': null, // https://stylelint.io/user-guide/rules/function-url-scheme-whitelist
     'function-whitelist': null, // https://stylelint.io/user-guide/rules/function-whitelist
     'function-whitespace-after': ['always', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/function-whitespace-after
-    'indentation': 2, // https://stylelint.io/user-guide/rules/indentation
+    'indentation': [2, { baseIndentLevel: 1 }], // https://stylelint.io/user-guide/rules/indentation
     // * we are already disallow !important statements, so we don't need this rule (i guess)
     'keyframe-declaration-no-important': null, // https://stylelint.io/user-guide/rules/keyframe-declaration-no-important
     'keyframes-name-pattern': null, // https://stylelint.io/user-guide/rules/keyframes-name-pattern
