@@ -39,7 +39,7 @@ module.exports = {
     'declaration-bang-space-after': 'never', // https://stylelint.io/user-guide/rules/declaration-bang-space-after
     'declaration-bang-space-before': 'always', // https://stylelint.io/user-guide/rules/declaration-bang-space-before
     'declaration-block-no-duplicate-properties': [true, { 'ignore': ['consecutive-duplicates-with-different-values']}], // https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties
-    'declaration-block-no-redundant-longhand-properties': true, // https://stylelint.io/user-guide/rules/declaration-block-no-redundant-longhand-properties
+    'declaration-block-no-redundant-longhand-properties': [true, { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-block-no-redundant-longhand-properties
     'declaration-block-no-shorthand-property-overrides': true, // https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides
     'declaration-block-semicolon-newline-after': 'always-multi-line', // https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-after
     'declaration-block-semicolon-newline-before': 'never-multi-line', // https://stylelint.io/user-guide/rules/declaration-block-semicolon-newline-before
@@ -48,7 +48,7 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1, // https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations
     'declaration-block-trailing-semicolon': ['always', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-block-trailing-semicolon
     'declaration-colon-newline-after': ['always-multi-line', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-colon-newline-after
-    'declaration-colon-space-after': 'always', // https://stylelint.io/user-guide/rules/declaration-colon-space-after
+    'declaration-colon-space-after': 'always-single-line', // https://stylelint.io/user-guide/rules/declaration-colon-space-after
     'declaration-colon-space-before': 'never', // https://stylelint.io/user-guide/rules/declaration-colon-space-before
     'declaration-empty-line-before': ['never', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/declaration-empty-line-before
     'declaration-no-important': [true, { 'severity': 'error' }], // https://stylelint.io/user-guide/rules/declaration-no-important
@@ -105,7 +105,7 @@ module.exports = {
     'media-query-list-comma-space-before': 'never', // https://stylelint.io/user-guide/rules/media-query-list-comma-space-before
     'no-descending-specificity': true, // https://stylelint.io/user-guide/rules/no-descending-specificity
     'no-duplicate-at-import-rules': true, // https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules
-    'no-duplicate-selectors': true, // https://stylelint.io/user-guide/rules/no-duplicate-selectors
+    'no-duplicate-selectors': [true, { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/no-duplicate-selectors
     'no-empty-first-line': true, // https://stylelint.io/user-guide/rules/no-empty-first-line
     'no-empty-source': true, // https://stylelint.io/user-guide/rules/no-empty-source
     'no-eol-whitespace': true, // https://stylelint.io/user-guide/rules/no-eol-whitespace
@@ -114,7 +114,7 @@ module.exports = {
     'no-missing-end-of-source-newline': true, // https://stylelint.io/user-guide/rules/no-missing-end-of-source-newline
     'no-unknown-animations': true, // https://stylelint.io/user-guide/rules/no-unknown-animations
     'number-leading-zero': 'always', // https://stylelint.io/user-guide/rules/number-leading-zero
-    'number-max-precision': 2, // https://stylelint.io/user-guide/rules/number-max-precision
+    'number-max-precision': 3, // https://stylelint.io/user-guide/rules/number-max-precision
     'number-no-trailing-zeros': true, // https://stylelint.io/user-guide/rules/number-no-trailing-zeros
     'property-blacklist': null, // https://stylelint.io/user-guide/rules/property-blacklist
     'property-case': 'lower', // https://stylelint.io/user-guide/rules/property-case
