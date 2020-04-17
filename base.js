@@ -106,7 +106,8 @@ module.exports = {
     'no-descending-specificity': true, // https://stylelint.io/user-guide/rules/no-descending-specificity
     'no-duplicate-at-import-rules': true, // https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules
     'no-duplicate-selectors': [true, { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/no-duplicate-selectors
-    'no-empty-first-line': true, // https://stylelint.io/user-guide/rules/no-empty-first-line
+    // * turned of because clashing with styled-components set-up
+    'no-empty-first-line': null, // https://stylelint.io/user-guide/rules/no-empty-first-line
     'no-empty-source': true, // https://stylelint.io/user-guide/rules/no-empty-source
     'no-eol-whitespace': true, // https://stylelint.io/user-guide/rules/no-eol-whitespace
     'no-extra-semicolons': true, // https://stylelint.io/user-guide/rules/no-extra-semicolons
