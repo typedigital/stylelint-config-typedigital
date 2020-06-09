@@ -57,9 +57,9 @@ module.exports = {
     'declaration-property-unit-whitelist': null, // https://stylelint.io/user-guide/rules/declaration-property-unit-whitelist
     'declaration-property-value-blacklist': null, // https://stylelint.io/user-guide/rules/declaration-property-value-blacklist
     'declaration-property-value-whitelist': null, // https://stylelint.io/user-guide/rules/declaration-property-value-whitelist
-    'font-family-name-quotes': ['always-where-recommended', { 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/font-family-name-quotes
+    'font-family-name-quotes': null, // https://stylelint.io/user-guide/rules/font-family-name-quotes
     'font-family-no-duplicate-names': true, // https://stylelint.io/user-guide/rules/font-family-no-duplicate-names
-    'font-family-no-missing-generic-family-keyword': true, // https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword
+    'font-family-no-missing-generic-family-keyword': null, // https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword
     'font-weight-notation': ['named-where-possible', { 'ignore': ['relative'], 'severity': 'warning' }], // https://stylelint.io/user-guide/rules/font-weight-notation
     'function-blacklist': null, // https://stylelint.io/user-guide/rules/function-blacklist
     'function-calc-no-invalid': true, // https://stylelint.io/user-guide/rules/function-calc-no-invalid
